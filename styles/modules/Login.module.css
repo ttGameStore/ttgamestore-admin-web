@@ -1,0 +1,13 @@
+.login_container {
+  width: 800px;
+}
+
+.login_background {
+  color: #ffffff;
+  background: linear-gradient(
+    180deg,
+    rgba(71, 3, 166, 1) 0%,
+    rgba(71, 3, 166, 0.5) 30%,
+    rgba(13, 1, 38, 1) 100%
+  );
+}

@@ -1,0 +1,13 @@
+.header-bar {
+  color: #ffffff;
+  background: linear-gradient(
+    180deg,
+    rgba(71, 3, 166, 1) 1000%,
+    rgba(71, 3, 166, 0.5) 50%,
+    rgba(13, 1, 38, 1) 100%
+  );
+}
+
+.navber {
+  background-color: rgba(27, 1, 64, 0.8);
+}

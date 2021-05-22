@@ -1,0 +1,23 @@
+{
+  "name": "ttgamestore-admin-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jquery": "^3.6.0",
+    "next": "10.2.2",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "uikit": "^3.6.22",
+    "url": "^0.11.0"
+  }
+}
