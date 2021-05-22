@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon server.js next dev",
-    "build": "node server.js next build",
-    "start": "next start -p $PORT",
+    "build": "next build",
+    "start": "node server.js next start -p $PORT",
     "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
