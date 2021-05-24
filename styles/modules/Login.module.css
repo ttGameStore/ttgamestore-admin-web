@@ -11,3 +11,31 @@
     rgba(13, 1, 38, 1) 100%
   );
 }
+
+.login_button {
+  background-color: #ffffff;
+  color: rgba(71, 3, 166, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_button > .login_button_login {
+  transition: width 2s, height 2s, transform 0.5s;
+}
+
+.login_button:hover > .login_button_login {
+  /* width: 70px;
+  height: 70px; */
+  transform: rotate(180deg);
+}
+
+/* .login_button:hover {
+  color: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(71, 3, 166, 1) 0%,
+    rgba(71, 3, 166, 0.5) 30%,
+    rgba(13, 1, 38, 1) 100%
+  );
+} */

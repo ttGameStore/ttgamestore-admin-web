@@ -12,7 +12,7 @@ const LoginScreen = () => {
         <div className="uk-flex uk-flex-center">
           <div className="uk-margin uk-width-1-2">
             <div className="uk-inline uk-width-1-1">
-              <div className="uk-form-icon" uk-icon="icon: user" />
+              <span className="uk-form-icon" uk-icon="icon: user" />
               <input
                 className="uk-input"
                 type="text"
@@ -25,7 +25,7 @@ const LoginScreen = () => {
         <div className="uk-flex uk-flex-center">
           <div className="uk-margin uk-width-1-2">
             <div className="uk-inline uk-width-1-1">
-              <div className="uk-form-icon" uk-icon="icon: lock" />
+              <span className="uk-form-icon" uk-icon="icon: lock" />
               <input
                 className="uk-input"
                 type="password"
@@ -35,9 +35,13 @@ const LoginScreen = () => {
           </div>
         </div>
         <div className="uk-flex uk-flex-center">
-          <Link href="/manageCard/manageCardListScreen" as="/card-list">
-            <button className="uk-button uk-button-default uk-width-1-2">
-              เข้าสู่ระบบ
+          <Link href="/card-list">
+            <button className={`uk-button uk-width-1-2 ${Style.login_button}`}>
+              <span>เข้าสู่ระบบ</span>
+              <span
+                className={Style.login_button_login}
+                uk-icon="icon: chevron-right"
+              ></span>
             </button>
           </Link>
         </div>
