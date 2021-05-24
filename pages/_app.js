@@ -21,10 +21,10 @@ function MyApp({ Component, pageProps }) {
       <UIKit>
         {router.pathname !== "/" && <Header />}
         {router.pathname !== "/" ? (
-          <Navbar>
-            <Component {...pageProps} />
-          </Navbar>
+          // <Navbar>
+          <Component {...pageProps} />
         ) : (
+          // </Navbar>
           <Component {...pageProps} />
         )}
       </UIKit>

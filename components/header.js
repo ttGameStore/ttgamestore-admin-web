@@ -2,20 +2,27 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="header-bar" uk-navbar="true">
-      <div className="uk-navbar-left">
-        <a className="uk-navbar-item uk-logo" href="#">
-          Logo
-        </a>
+    <div className="header-bar">
+      <div>
+        <span>TT Gamestore</span>
       </div>
-      <div className="uk-navbar-right">
-        <ul className="uk-navbar-nav">
-          <li className="">
-            <a href="#">ผู้ใช้งาน</a>
-          </li>
-        </ul>
+      <div>
+        {/* <div className="header-search"> */}
+        <a href="" uk-icon="icon: search"></a>
+        {/* </div> */}
+        <div className="uk-inline">
+          <a className="uk-margin-small-left" href="" uk-icon="icon: user"></a>
+          <div uk-dropdown="mode: click">
+            <div>
+              <span>จัดการบัญชี</span>
+            </div>
+            <div>
+              <span>ออกจากระบบ</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

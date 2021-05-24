@@ -3,7 +3,7 @@ import React from "react";
 const TableComponent = ({ title_name }) => {
   return (
     <div className="uk-overflow-auto">
-      <table className="uk-table uk-table-hover uk-table-middle uk-table-divider">
+      <table className="uk-table uk-table-middle uk-table-divider">
         <thead>
           <tr>
             {title_name && title_name.length > 0

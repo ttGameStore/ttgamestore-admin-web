@@ -4,8 +4,10 @@ import ColumnCardList from "../../utils/ColumnCardList.utile";
 
 const manageCardListScreen = () => {
   return (
-    <div>
-      <TableComponent title_name={ColumnCardList} />
+    <div className="uk-padding">
+      <div className="table-style">
+        <TableComponent title_name={ColumnCardList} />
+      </div>
     </div>
   );
 };

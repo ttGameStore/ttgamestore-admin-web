@@ -1,5 +1,10 @@
 .header-bar {
   color: #ffffff;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
   background: linear-gradient(
     180deg,
     rgba(71, 3, 166, 1) 1000%,
@@ -8,6 +13,17 @@
   );
 }
 
+.header-search {
+  height: 30px;
+  width: 30px;
+  background-color: chartreuse;
+}
+
 .navber {
   background-color: rgba(27, 1, 64, 0.8);
+}
+
+.table-style {
+  background-color: rgba(27, 1, 64, 0.8);
+  padding: 20px;
 }
